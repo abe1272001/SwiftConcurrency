@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0A91C7EA28E6CE2B005E49C8 /* SwiftConcurrencyBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91C7E928E6CE2B005E49C8 /* SwiftConcurrencyBootcampApp.swift */; };
-		0A91C7EC28E6CE2B005E49C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91C7EB28E6CE2B005E49C8 /* ContentView.swift */; };
+		0A91C7EC28E6CE2B005E49C8 /* DoCatchTryThrowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91C7EB28E6CE2B005E49C8 /* DoCatchTryThrowsView.swift */; };
 		0A91C7EE28E6CE2E005E49C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A91C7ED28E6CE2E005E49C8 /* Assets.xcassets */; };
 		0A91C7F128E6CE2E005E49C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A91C7F028E6CE2E005E49C8 /* Preview Assets.xcassets */; };
+		0A91C7F828E6DDFE005E49C8 /* DownloadImageAsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91C7F728E6DDFE005E49C8 /* DownloadImageAsyncView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A91C7E628E6CE2B005E49C8 /* SwiftConcurrencyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrencyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A91C7E928E6CE2B005E49C8 /* SwiftConcurrencyBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyBootcampApp.swift; sourceTree = "<group>"; };
-		0A91C7EB28E6CE2B005E49C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A91C7EB28E6CE2B005E49C8 /* DoCatchTryThrowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsView.swift; sourceTree = "<group>"; };
 		0A91C7ED28E6CE2E005E49C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A91C7F028E6CE2E005E49C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A91C7F728E6DDFE005E49C8 /* DownloadImageAsyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				0A91C7E928E6CE2B005E49C8 /* SwiftConcurrencyBootcampApp.swift */,
-				0A91C7EB28E6CE2B005E49C8 /* ContentView.swift */,
+				0A91C7EB28E6CE2B005E49C8 /* DoCatchTryThrowsView.swift */,
+				0A91C7F728E6DDFE005E49C8 /* DownloadImageAsyncView.swift */,
 				0A91C7ED28E6CE2E005E49C8 /* Assets.xcassets */,
 				0A91C7EF28E6CE2E005E49C8 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A91C7EC28E6CE2B005E49C8 /* ContentView.swift in Sources */,
+				0A91C7EC28E6CE2B005E49C8 /* DoCatchTryThrowsView.swift in Sources */,
+				0A91C7F828E6DDFE005E49C8 /* DownloadImageAsyncView.swift in Sources */,
 				0A91C7EA28E6CE2B005E49C8 /* SwiftConcurrencyBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
